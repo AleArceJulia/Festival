@@ -1,0 +1,29 @@
+.galeria {
+  padding: 5rem 0;
+}
+.galeria h1 {
+  text-align: center;
+}
+
+.galeria-imagenes {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+}
+@media (min-width: 468px) {
+  .galeria-imagenes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .galeria-imagenes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
